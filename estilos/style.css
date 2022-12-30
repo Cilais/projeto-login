@@ -70,14 +70,16 @@ div#formulário > p {
 
 }
 
+
 form > div.campo {
     background-color: #5f2c82;
     border: 2px solid #5f2c82;
     display: block;
-    width:100% ;
+    width:100%;
     height: 40px;
     border-radius: 8px;
     margin: 5px 0px;
+
 }
 
 div.campo > label{
@@ -85,17 +87,18 @@ div.campo > label{
 }
 
 div.campo > i {
-    color: white;
-    /*background-color: black;*/
+
+    color:white;
     font-size: 2em;
     width: 40px;
     padding: 5px;
 }
 
 div.campo > input {
+
     background-color: #94cfcd;
     font-size: 1em;
-    width: calc(100 - 44px);
+    width: calc(100% - 44px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
@@ -143,6 +146,7 @@ form > input[type=submit]:hover {
 
  form > a.botao:hover {
     background-color: #6cd3cf;
+    
  }
 
  form > a.botao > i {
